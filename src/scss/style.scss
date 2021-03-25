@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import "header/header.scss";
+@import "left-sidebar/left-sidebar.scss";
+@import "main/main.scss";
+@import "vars.scss";
+
+body{
+  max-width: 100vw;
+  max-height:100vh;
+}
+*{
+  padding:0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+li,a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+//забыл флексануть
+.merge{
+  display: flex;
+}

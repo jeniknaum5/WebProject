@@ -1,0 +1,15 @@
+@import "./second-nav/second-nav.scss";
+@import "./gallery/gallery.scss";
+@import "./basic-profile/basic-profile.scss";
+@import "./notifications/notifications.scss";
+.main{
+  width: 82vw;
+  background: #F2F2F2;
+  padding-bottom: 100px;
+
+}
+.test{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

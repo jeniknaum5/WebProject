@@ -1,0 +1,64 @@
+@import "vars.scss";
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: $headerHeight;
+  background: $headerBackground;
+  align-items: center;
+
+  //logo
+  &__logo{
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+  }
+  &__icon{
+    width: 36px;
+    height: 36px;
+  }
+  &__name{
+    flex-wrap: nowrap;
+    font-size: 20px;
+    margin-left: 8px;
+    color: $colorWhite;
+  }
+
+  //ads
+  &__adver{
+    margin-left: -350px;
+    padding: 7px 16px 7px 8px;
+    background: darken($headerBackground, 10%);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  &__price{
+    font-size: 12px;
+    background: #26A69A;
+    color: $colorWhite;
+    text-transform: uppercase;
+    padding: 4px 6px;
+    border-radius: 5px;
+  }
+  &__text{
+    margin-left: 14px;
+    color: $colorWhite;
+    opacity: 0.6;
+  }
+  &__link{
+    margin-left: 2px;
+    text-decoration: none;
+    color:$colorWhite;
+  }
+  //buttons
+
+  &__buttons{
+    margin-right: 33px;
+  }
+  &__log-out{
+    margin-left: 22px;
+  }
+
+}
