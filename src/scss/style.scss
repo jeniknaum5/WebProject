@@ -2,6 +2,7 @@
 @import "header/header.scss";
 @import "left-sidebar/left-sidebar.scss";
 @import "main/main.scss";
+@import "main-products/main-products.scss";
 @import "vars.scss";
 
 body{
@@ -21,4 +22,5 @@ li,a{
 //забыл флексануть
 .merge{
   display: flex;
+  //height: 100%;
 }

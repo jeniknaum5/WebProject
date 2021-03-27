@@ -4,7 +4,7 @@
   margin-top: 24px;
   padding-bottom: 36px;
   border-radius: 10px;
-  box-shadow: -2px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: $boxShadow;
 
   &__text{
     display: flex;
